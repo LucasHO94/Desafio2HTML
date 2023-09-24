@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
 }
+
 body {
-    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
 }
@@ -11,35 +11,14 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: #ddd8d8;
 }
-.main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
-}
+
 .menu {
-    display: flex;
-    width: 25%;
-    background-color: #f1f1f1;
     padding: 15px 20px 0px;
+    
 }
-.menu img{
-    align-items: center;
-}
-.menu h1{
-    font-size: 50;
-}
+
 .header {
-    background-color: #b9c6d3;
-    min-height: 150px;
-}
-.content {
-    background-color: lightgray;
-    min-height: 300px;
-    padding: 20px;
-}
-.footer {
-    background-color: #cfc2c2;
-    min-height: 150px;
+    display: flex;
+    min-height: 100px;
 }
